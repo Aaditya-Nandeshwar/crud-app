@@ -42,11 +42,13 @@ Instructions for setting up the development environment installation steps.
    
 4. Run the python app
 
+    **Note**: This python based app helps to create, read, update & delete db records on PostgreSQL DB. In the same code, I'm also creating an empty database called as `courses` to simply the process.  
+
     ```
     python3 app.py 
    ```
    
-5. call db api from another terminal
+6. Call db api from another terminal window
 
     ```bash
     curl http://localhost:80/api/records
