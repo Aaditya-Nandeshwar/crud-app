@@ -42,7 +42,7 @@ Instructions for setting up the development environment installation steps.
    
 4. Run the python app
 
-    **Note**: This python based app helps to create, read, update & delete db records on PostgreSQL DB. In the same code, I'm also creating an empty database called as `courses` to simply the process.  
+    **Note**: This python based app helps to create, read, update & delete db records on PostgreSQL DB. In the same code, I'm also creating an empty database called as `courses` to simplify the process.  
 
     ```
     python3 app.py 
