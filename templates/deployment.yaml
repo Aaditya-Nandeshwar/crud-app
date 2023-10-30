@@ -39,7 +39,7 @@ spec:
               protocol: TCP
           envFrom:
             - configMapRef:
-                name: "{ { .Release.Name } }-configmap"
+                name: "{{ .Release.Name }}-configmap"
           livenessProbe:
             httpGet:
               path: /
